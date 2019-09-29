@@ -7,7 +7,7 @@ const evaluate = input => {
             return nums => (nums.charAt(0) - '0') - (nums.charAt(2) - '0');
         case '*':
             return nums => (nums.charAt(0) - '0') * (nums.charAt(2) - '0');
-        case '/':
+        case '/':g
             return nums => (nums.charAt(0) - '0') / (nums.charAt(2) - '0');
         case '%':
             return nums => (nums.charAt(0) - '0') % (nums.charAt(2) - '0');
