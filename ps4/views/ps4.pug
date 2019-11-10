@@ -1,7 +1,8 @@
 extends layout
 
 block content
-    h2 Location: Brookline, Massachusetts
-    p Latitude: #{lat}
-    p Longitude: #{lon}
-    h3 Temperature: #{temp_f} °F
+    h1 Live USD Currency Exchange
+    p USD : EURO = 1 : #{quotes.USDEUR}
+    p USD : Japanese Yen = 1 : #{quotes.USDJPY}
+    p USD : Chinese Yen = 1 : #{quotes.USDCNY}
+    p USD : Taiwan Dollar = 1: #{quotes.USDTWD}

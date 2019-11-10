@@ -23,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -67,6 +67,8 @@
       <workItem from="1572396515938" duration="912000" />
       <workItem from="1572398127259" duration="28000" />
       <workItem from="1572398155643" duration="1363000" />
+      <workItem from="1572818953622" duration="1326000" />
+      <workItem from="1573338645525" duration="7817000" />
     </task>
     <servers />
   </component>
@@ -85,5 +87,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/ps4.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

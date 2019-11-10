@@ -1,23 +1,17 @@
 const express = require('express');
 const router = express.Router();
 const request = require('request');
-const weather = require('../configs/config');
+const currEX = require('../configs/config');
 
-
-const getURL = weather.url;
-const id = weather.id;
-const key = weather.key;
-const method = weather.method;
 
 router.get('/', function (req, res, next) {
     const options = {
-        url: getURL,
+        method: 'GET',
+        url: currEX.app_url,
         qs: {
-            app_id: id,
-            app_key: key,
+                access_key: currEX.app_key,
         },
-        method: method
-    };
+    }
 
     request(options, function (error, response, body) {
         const jsonBody = JSON.parse(body);
