@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    HW7 Angular APP
+  </h1>
+</div>
+
+<div align = "center">
+  <h3>
+  <label>Search Rate:</label> <input type="text" [(ngModel)]="temp" required>
+    <button (click)="getRates(temp)">go</button>
+  </h3>
+</div>
+
+<div>
+  <ul>
+    <li *ngFor="let EUR  of rates">
+    </li>
+  </ul>
+</div>
+
